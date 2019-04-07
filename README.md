@@ -2,29 +2,33 @@
 
 ## Objectif de la formation
 
-  * Comprendre l'intérêt de Python pour le script scientifique
+  * Comprendre l'intérêt de Python pour le script scientifique en SHS
   * Bases sur le langage
   * Présentation du Notebook Jupyter
   * Librairie Pandas pour manipuler des tableaux
   * Statistiques avec Python
   * Aller vers des fonctions avancées
 
+ Attention : Python est présenté ici comme un outil pour le script scientifique, et non pas comme un langage de programmation pour développer des applications
+
 
 ## Elements concernant la formation du vendredi 26 avril
 
 Tous les documents utilisés dans la formation (code et jeux de données) sont sur ce dépôt Github.
+
+Chacun.e est responsable d'amener son ordinateur.
 
 Tout le monde doit avoir installé Anaconda avant la formation, la connexion internet n'est pas garantie.
 
 Le planning prévu est le suivant : 
   * 9h-9h30 : Accueil et vérification des configurations
   * 9h30-10h : Présentation sur l'usage de python en recherche
-  * 10h-11h : Bases de script python sous Jupyter
-  * 11h-12h30 : Librairie Pandas
+  * 10h-11h30 : Bases de script python sous Jupyter
+  * 11h30-12h30 : Librairie Pandas
   * 12h30-14h : Repas et échanges
   * 14h-15h30 : Faire des statistiques avec Python
   * 15h30-16h30 : Hands on
-  * 16h30-17h30 : Usages avancés
+  * 16h30-17h30 : Usages avancés (Webscraping,)
 
 
 ## Installation de Python
@@ -40,3 +44,9 @@ Python est un langage interprété qui nécessite un environnement. *Anaconda* e
   * Installer les packages nécessaires à la formation : pandas, jupyter, scipy
     * Sur windows, aller dans le gestionnaire de package
 	* Sur linux/max : conda install *nomdupackage*
+
+## Ressources
+
+  * Nombreux tutoriaux : https://nealcaren.github.io/python-tutorials/
+  * Tutoriaux SciPy 2018: https://www.youtube.com/playlist?list=PLYx7XA2nY5Gd-tNhm79CNMe_qvi35PgUR
+

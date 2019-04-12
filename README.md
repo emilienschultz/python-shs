@@ -43,7 +43,7 @@ Python est un langage interprété qui nécessite un environnement. *Anaconda* e
   	* Sur linux/mac : Ouvrir un terminal, puis créer un environnement en tappant la commande : conda create --name p35 python=3.5
   	(pour toute information sur les commandes conda : https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
   * Lancer python (sur windows en lançant Anaconda ; sous linux/mac en tapant la commande source activate p35 dans un terminal)
-  * Installer les packages nécessaires à la formation : pandas, jupyter, scipy
+  * Installer les packages nécessaires à la formation : pandas, jupyter, scipy, xlrd
     * Sur windows, aller dans le gestionnaire de package
 	* Sur linux/max : conda install *nomdupackage*
 

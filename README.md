@@ -14,6 +14,8 @@
 
 ## Elements concernant la formation du vendredi 26 avril
 
+Les exercices d'illustration seront construits autour d'une étude de cas : analyser des éléments de presse autour du débat sur le déremboursement de l'homéopathie.
+
 Tous les documents utilisés dans la formation (code et jeux de données) sont sur ce dépôt Github.
 
 Chacun.e est responsable d'amener son ordinateur.

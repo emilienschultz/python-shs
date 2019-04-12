@@ -25,7 +25,7 @@ Le planning prévu est le suivant :
   * 9h30-10h : Présentation sur l'usage de python en recherche
   * 10h-11h30 : Bases de script python sous Jupyter
   * 11h30-12h30 : Librairie Pandas
-  * 12h30-14h : Repas et échanges
+  * 12h30-14h : Repas et échanges (pour l'instant, chacun prend charge de son repas)
   * 14h-15h30 : Faire des statistiques avec Python
   * 15h30-16h30 : Hands on
   * 16h30-17h30 : Usages avancés (Webscraping,)

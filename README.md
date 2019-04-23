@@ -45,7 +45,7 @@ Python est un langage interprété qui nécessite un environnement. *Anaconda* e
   * Lancer python (sur windows en lançant Anaconda ; sous linux/mac en tapant la commande source activate p35 dans un terminal)
   * Installer les packages nécessaires à la formation (dans l'ordre): *matplotlib, jupyter, pandas, scipy, numpy, math, xlrd, bs4, urllib3, networkx, regex* (accepter si le logiciel vous propose d'installer les dépendances)
     * Sur windows, aller dans le gestionnaire de package
-	* Sur linux/max : conda install *nomdupackage*
+	* Sur linux/max : __conda install *nomdupackage*__ et si le package n'est pas trouvé, l'autre commande est __pip install *nomdupackage*__ (si vous n'avez pas *pip* pensez à l'installer https://ahmadawais.com/install-pip-macos-os-x-python/)
 
 ## Autres logiciels
 

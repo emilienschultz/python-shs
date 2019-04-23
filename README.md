@@ -39,16 +39,29 @@ Python est un langage interprété qui nécessite un environnement. *Anaconda* e
   * Télécharger Anaconda pour votre OS en version python 3.7 : https://www.anaconda.com/distribution/
   * Installer (suivant que vous soyez sous Windows, Linux ou Mac, la procédure va changer)
   * Lancer Anaconda pour créer un environnement de travail
-  	* Sur windows : Aller dans environnements > Create > donner un nom (ex. p35) et une version de python 3.5
+  	* Sur windows : Aller dans environnements > Create > donner un nom (ex. p35) et une version de python 3.5 (__Attention bien installer la version 3.5 de python __)
   	* Sur linux/mac : Ouvrir un terminal, puis créer un environnement en tappant la commande : conda create --name p35 python=3.5
   	(pour toute information sur les commandes conda : https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
   * Lancer python (sur windows en lançant Anaconda ; sous linux/mac en tapant la commande source activate p35 dans un terminal)
-  * Installer les packages nécessaires à la formation : pandas, jupyter, scipy, xlrd
+  * Installer les packages nécessaires à la formation (dans l'ordre): matplotlib, jupyter, pandas, scipy, numpy, math, xlrd, bs4, urllib3, networkx, regex (accepter si le logiciel vous propose d'installer les dépendances)
     * Sur windows, aller dans le gestionnaire de package
 	* Sur linux/max : conda install *nomdupackage*
+
+## Autres logiciels
+
+Installer Sublime text : https://www.sublimetext.com/
+
+## Fichiers disponibles
+  * Introduction : exemple de traitement d'une revue de presse
+  * Rudiments de Python en situation : manipuler les données de la revue de presse
+  * Passer sous Pandas : travailler sur une base de données
+  * Traitements statistiques : analyser la base de données
+  * Application : comparer les publications dans Le Figaro et Le Monde
+  * Aller plus loin : scrapping, analyse lexicométrique et analyse de réseaux
 
 ## Ressources
 
   * Nombreux tutoriaux : https://nealcaren.github.io/python-tutorials/
   * Tutoriaux SciPy 2018: https://www.youtube.com/playlist?list=PLYx7XA2nY5Gd-tNhm79CNMe_qvi35PgUR
-
+  * Automatiser les tâches ennuyeuses : https://automatetheboringstuff.com/
+  * Python for Social Science https://gawron.sdsu.edu/python_for_ss/course_core/book_draft/index.html

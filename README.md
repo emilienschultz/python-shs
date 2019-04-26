@@ -64,3 +64,4 @@ Installer Sublime text : https://www.sublimetext.com/
   * Tutoriaux SciPy 2018: https://www.youtube.com/playlist?list=PLYx7XA2nY5Gd-tNhm79CNMe_qvi35PgUR
   * Automatiser les tâches ennuyeuses : https://automatetheboringstuff.com/
   * Python for Social Science https://gawron.sdsu.edu/python_for_ss/course_core/book_draft/index.html
+  * Et surtout : ce magnifique exemple http://jakevdp.github.io/blog/2014/06/10/is-seattle-really-seeing-an-uptick-in-cycling/

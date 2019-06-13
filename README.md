@@ -2,37 +2,36 @@
 
 ## Objectif de la formation
 
+Python est présenté ici comme un outil pour le script scientifique, et non pas comme un langage de programmation pour développer des applications
+
   * Comprendre l'intérêt de Python pour le script scientifique en SHS
-  * Bases sur le langage
+  * Bases du langage Python
   * Présentation du Notebook Jupyter
-  * Librairie Pandas pour manipuler des tableaux
+  * Usage de la librairie Pandas pour manipuler des données
   * Statistiques avec Python
-  * Aller vers des fonctions avancées
+  * Aller vers des fonctions avancées : fouille de données, analyse textuelle, analyse de réseaux sociaux
 
-La formation est prévue sur une journée. Par contre le contenu est très dense pour des débutants en script. Elle peut être décomposée sur deux jours, avec des périodes consacrées aux applications.
+La formation est prévue sur une journée. Par contre le contenu est très dense pour des débutants en script. 
 
-Attention : Python est présenté ici comme un outil pour le script scientifique, et non pas comme un langage de programmation pour développer des applications
-
-## Elements concernant la formation du vendredi 26 avril
-
-Les exercices d'illustration seront construits autour d'une étude de cas principale : analyser des éléments de presse autour du débat (sur le déremboursement de l'homéopathie).
+## Elements concernant la formation
 
 Tous les documents utilisés dans la formation (code et jeux de données) sont sur ce dépôt Github.
 
 Chacun.e est responsable d'__amener son ordinateur__.
 
-__Tout le monde doit avoir installé Anaconda avant la formation, la connexion internet n'est pas garantie.__
+Pour le moment, les exercices d'illustration sont construits autour d'une étude de cas principale : analyser des éléments de presse autour du débat (sur le déremboursement de l'homéopathie). D'autres modules peuvent être envisagés.
 
-Le planning pour une journée est le suivant : 
-  * 9h-9h30 : Accueil et vérification des configurations
-  * 9h30-10h : Présentation sur l'usage de python en recherche
-  * 10h-11h30 : Bases de script python sous Jupyter
-  * 11h30-12h30 : Librairie Pandas
-  * 12h30-14h : Repas et échanges (le laboratoire fournit les sandwichs)
-  * 14h-15h30 : Faire des statistiques avec Python
-  * 15h30-16h30 : Hands on
-  * 16h30-17h30 : Usages avancés (Webscraping,)
+__Tout le monde doit avoir installé Anaconda avant la formation, suivant la qualité de la connexion internet le téléchargement sur place peut être compliqué.__
 
+Le planning pour la journée est le suivant : 
+  * 9h-9h30 : Accueil et vérification des configurations si besoin
+  * 9h30-10h : Présentation sur l'usage du langage python en recherche
+  * 10h-12h00 : Bases de script python sous Jupyter
+  * 12h-13h30 : Pause repas
+  * 13h30-15h : Utilisation de la librairie Pandas pour manipuler des données
+  * 15h-16h : Faire des statistiques avec Python
+  * 16h00-16h30 : Pause
+  * 16h30-17h30 : Présentation d'usages avancés (récupération de données Tweeter)
 
 ## Installation de Python
 
@@ -46,25 +45,22 @@ Python est un langage interprété qui nécessite un environnement. *Anaconda* e
   * Lancer python (sur windows en lançant Anaconda ; sous linux/mac en tapant la commande source activate p35 dans un terminal)
   * Installer les packages nécessaires à la formation (dans l'ordre): *matplotlib, jupyter, pandas, scipy, numpy, xlrd, bs4, urllib3, networkx, regex* (accepter si le logiciel vous propose d'installer les dépendances)
     * Sur windows, aller dans le gestionnaire de package
-	* Sur linux/max : __conda install *nomdupackage*__ et si le package n'est pas trouvé, l'autre commande est __pip install *nomdupackage*__ (si vous n'avez pas *pip* pensez à l'installer https://ahmadawais.com/install-pip-macos-os-x-python/)
+	* Sur linux/max : __conda install *nomdupackage*__ et si le package n'est pas trouvé, l'autre commande est __pip install *nomdupackage*__ (si vous n'avez pas *pip* pensez à l'installer https://ahmadawais.com/install-pip-macos-os-x-python/).
 
 Pour vérifier l'installation :
 * lancez un terminal (vous pouvez le faire sous le logiciel Anaconda) et vérifiez que ipython est bien installé en tapant *ipython*
 * de manière similaire, lancez Jupyter notebook en tapant *jupyter notebook* 
-* essayez d'importer les différentes librairies installées dans ipython en tapant : import nom_de_la_librairie (pandas par exemple)
+* essayez d'importer les différentes librairies installées dans ipython en tapant : import nom_de_la_librairie (pandas par exemple). Si rien ne se passe, c'est que tout est bien installé. Sinon, un message d'erreur s'affiche.
 
 ## Autres logiciels
 
-Installer Sublime text : https://www.sublimetext.com/ (pour visualiser des documents)
+Vous pouvez installer Sublime text : https://www.sublimetext.com/ (pour visualiser des documents textes)
 
-## Fichiers disponibles
-  * 1 - Introduction : exemple de traitement d'une revue de presse
-  * 2 - Rudiments de Python en situation : manipuler les données de la revue de presse
-  * 3 - Passer sous Pandas : travailler sur une base de données
-  * 4 - Traitements statistiques : analyser la base de données
-  * 5 - Aller plus loin : scrapping, analyse lexicométrique et analyse de réseaux
+## Formation déjà réalisées
 
-## Ressources : ne pas hésiter à s'appuyer sur la communauté python
+  * Formation du 26/04/2019 laboratoire SESSTIM (analyse de corpus)
+
+## Ressources : ne pas hésiter à s'appuyer sur la communauté python, qui est vaste et accueillante
 
   * Nombreux tutoriaux : https://nealcaren.github.io/python-tutorials/
   * Tutoriaux vidéos SciPy 2018: https://www.youtube.com/playlist?list=PLYx7XA2nY5Gd-tNhm79CNMe_qvi35PgUR
